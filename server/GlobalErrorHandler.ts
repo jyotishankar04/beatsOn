@@ -11,5 +11,5 @@ const globalErrorHandler = (err: HttpError, req: Request, res: Response) => {
     errorStact: EnvConfig.env === "development" ? err.stack : "",
   });
 };
-// this is a commnet
+
 export default globalErrorHandler;

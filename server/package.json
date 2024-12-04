@@ -1,4 +1,16 @@
 {
+                                                                                                                                                                                           
+     "name": "beatsOn server",
+     "version": "1.0.0",
+     "description": "The backend for BeatsOn Server",
+     "main": "server.ts",
+     "scripts": {
+       "dev": "nodemon server.ts",
+       "start": "node server.ts"
+     },
+    "keywords": [],
+    "author": "devsuvam<patrajyotishankar@gmail.com>",
+   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
     "cookie-parser": "^1.4.7",
