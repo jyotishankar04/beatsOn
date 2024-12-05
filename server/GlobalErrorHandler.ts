@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import { HttpError } from "http-errors";
-import EnvConfig from "./config/EnvConfig";
+import EnvConfig from "./src/config/EnvConfig";
 
 const globalErrorHandler = (err: HttpError, req: Request, res: Response) => {
   const statusCode = err.statusCode || 500;
